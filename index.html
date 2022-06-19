@@ -5,10 +5,16 @@
     </head>
     <body>
         <div class="generator">
-            <form onsubmit="Generator()">
-                <input type="number" required/>
-                <button>Generate Name</button>
-            </form>
+            <p>Please Enter The Number Of Name You Want To Generate</p>
+                <input type="number" name="total" min="1" id="total" required/>
+                <button onclick="Generator()">Generate Name</button>
+            <div id="Message"></div>
+            <div id="Names"></div>
+            <style>
+                div, p{
+                    text-transform: capitalize !important;
+                }
+            </style>
         </div>
         <script src="script.js" type="text/javaScript"></script>
     </body>
