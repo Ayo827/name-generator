@@ -9,16 +9,16 @@ function Generator() {
     div.innerText = ''
     var names = [];
     for (var i = 0; i < total; i++) {
-      const Alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
-        'I', 'J', 'K', 'L',
-        'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-        'W', 'X', 'Y', 'Z'];
-
+      // const Alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
+      //   'I', 'J', 'K', 'L',
+      //   'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+      //   'W', 'X', 'Y', 'Z'];
+      const Alphabets = ['A']
       //STEP ONE
       var name = Alphabets[Math.floor(Math.random() * Alphabets.length)];
       var nextletter = "";
       //FOR A
-      var A1 = ['I', 'L', 'M', 'N', 'R', 'S', 'U', 'V', 'Z'];
+      var A1 = ['T', 'L', 'M', 'N'];
       var A2 = ['A', 'Y', 'O'];
       var A3 = ['A', 'E', 'I', 'L', 'O', 'N'];
       var A4 = ['H', 'I', 'L', 'N', 'R', 'S', 'T'];
@@ -139,37 +139,56 @@ function Generator() {
       var K9 = ['W', 'R', 'S'];
       var K10 = ['W', 'R', 'S'];
       //For L
-      var L1 = ['W', 'R', 'S'];
-      var L2 = ['W', 'R', 'S'];
-      var L3 = ['W', 'R', 'S'];
-      var L4 = ['W', 'R', 'S'];
-      var L5 = ['W', 'R', 'S'];
+      var L1 = ['T', 'L', 'M', 'N'];
+      var L2 = ['T', 'L', 'M', 'N'];
+
+      var L3 = ['T', 'L', 'M', 'N'];
+
+      var L4 = ['T', 'L', 'M', 'N'];
+
+      var L5 = ['T', 'L', 'M', 'N'];
+
       var L6 = ['W', 'R', 'S'];
       var L7 = ['W', 'R', 'S'];
       var L8 = ['W', 'R', 'S'];
       var L9 = ['W', 'R', 'S'];
       var L10 = ['W', 'R', 'S'];
       //For M
-      var M1 = ['W', 'R', 'S'];
-      var M2 = ['W', 'R', 'S'];
-      var M3 = ['W', 'R', 'S'];
-      var M4 = ['W', 'R', 'S'];
-      var M5 = ['W', 'R', 'S'];
-      var M6 = ['W', 'R', 'S'];
+      var M1 = ['T', 'L', 'M', 'N'];
+
+      var M2 = ['T', 'L', 'M', 'N'];
+
+      var M3 = ['T', 'L', 'M', 'N'];
+
+      var M4 = ['T', 'L', 'M', 'N'];
+
+      var M5 = ['T', 'L', 'M', 'N'];
+
+      var M6 = ['T', 'L', 'M', 'N'];
+
       var M7 = ['W', 'R', 'S'];
       var M8 = ['W', 'R', 'S'];
       var M9 = ['W', 'R', 'S'];
       var M10 = ['W', 'R', 'S'];
       //For N
-      var N1 = ['W', 'R', 'S'];
-      var N2 = ['W', 'R', 'S'];
-      var N3 = ['W', 'R', 'S'];
-      var N4 = ['W', 'R', 'S'];
-      var N5 = ['W', 'R', 'S'];
-      var N6 = ['W', 'R', 'S'];
-      var N7 = ['W', 'R', 'S'];
-      var N8 = ['W', 'R', 'S'];
-      var N9 = ['W', 'R', 'S'];
+      var N1 = ['T', 'L', 'M', 'N'];
+
+      var N2 = ['T', 'L', 'M', 'N'];
+
+      var N3 = ['T', 'L', 'M', 'N'];
+
+      var N4 = ['T', 'L', 'M', 'N'];
+
+      var N5 = ['T', 'L', 'M', 'N'];
+
+      var N6 = ['T', 'L', 'M', 'N'];
+
+      var N7 = ['T', 'L', 'M', 'N'];
+
+      var N8 = ['T', 'L', 'M', 'N'];
+
+      var N9 = ['T', 'L', 'M', 'N'];
+
       var N10 = ['W', 'R', 'S'];
       //For O
       var O1 = ['W', 'R', 'S'];
@@ -227,16 +246,16 @@ function Generator() {
       var S9 = ['W', 'R', 'S'];
       var S10 = ['W', 'R', 'S'];
       //For T
-      var T1 = ['W', 'R', 'S'];
-      var T2 = ['W', 'R', 'S'];
-      var T3 = ['W', 'R', 'S'];
-      var T4 = ['W', 'R', 'S'];
-      var T5 = ['W', 'R', 'S'];
-      var T6 = ['W', 'R', 'S'];
-      var T7 = ['W', 'R', 'S'];
-      var T8 = ['W', 'R', 'S'];
-      var T9 = ['W', 'R', 'S'];
-      var T10 = ['W', 'R', 'S'];
+      var T1 = ['T', 'L', 'M', 'N']
+      var T2 = ['T', 'L', 'M', 'N']
+      var T3 = ['T', 'L', 'M', 'N']
+      var T4 = ['T', 'L', 'M', 'N']
+      var T5 = ['T', 'L', 'M', 'N']
+      var T6 = ['T', 'L', 'M', 'N']
+      var T7 = ['T', 'L', 'M', 'N']
+      var T8 = ['T', 'L', 'M', 'N']
+      var T9 = ['T', 'L', 'M', 'N']
+      var T10 = ['T', 'L', 'M', 'N']
       //For U
       var U1 = ['W', 'R', 'S'];
       var U2 = ['W', 'R', 'S'];
@@ -1355,8 +1374,8 @@ function Generator() {
         nextletter = Z10[Math.floor(Math.random() * Z10.length)];
         name = name + nextletter
       }
-      //  var result = name.replace(/(.)\1+/g, '$1')
-      var result = name.split("");
+       var result = name.replace(/([ABCDEFGHIJKOPQRSUVWXYZ])\1+/g, '$1')
+      //var result = name.split("");
       var word;
       // for(var i = 0; i < result.length; i++){
       //   if(((result[i] === 'T') && (result[i + 1] === 'T') ) || ((result[i] === 'M') && (result[i + 1] === 'M') ) || ((result[i] === 'L') && (result[i + 1] === 'L') ) || ((result[i] === 'N') && (result[i + 1] === 'N') )){
@@ -1369,11 +1388,11 @@ function Generator() {
       //     console.log(word)
       //   }
       // }
-      const pendingOrder = result.reduce((acc, num, i, array) => { return (((result[i] === 'T') && (result[i + 1] === 'T') ) || ((result[i] === 'M') && (result[i + 1] === 'M') ) || ((result[i] === 'L') && (result[i + 1] === 'L') ) || ((result[i] === 'N') && (result[i + 1] === 'N') )) ? array.join : (((result[i] !== 'T') && (result[i + 1] !== 'T') ) || ((result[i] !== 'M') && (result[i + 1] !== 'M') ) || ((result[i] !== 'L') && (result[i + 1] !== 'L') ) || ((result[i] !== 'N') && (result[i + 1] !== 'N') )) ? acc = name.replace(/(.)\1+/g, result[i]) : acc = name.replace(/(.)\1+/g, result[i]) }, []);
-      console.log(pendingOrder)
+      // const pendingOrder = result.reduce((acc, num, i, array) => { return (((array[i] === 'T') && (array[i++] === 'T')) || ((array[i] === 'M') && (array[i++] === 'M')) || ((array[i] === 'L') && (array[i++] === 'L')) || ((array[i] === 'N') && (array[i++] === 'N'))) ? array.join("") : (((array[i] !== 'T') && (array[i++] !== 'T')) || ((array[i] !== 'M') && (array[i++] !== 'M')) || ((array[i] !== 'L') && (array[i++] !== 'L')) || ((array[i] !== 'N') && (array[i++] !== 'N'))) ? acc = name.replace(/([ABCDEFGHIJKOPQRSUVWXYZ])\1+/g, '') : array.join("") }, []);
+      // console.log(pendingOrder)
       var nameLength = [5, 6, 7, 8, 9, 10, 11];
       nameLength = nameLength[Math.floor(Math.random() * nameLength.length)];
-      word = pendingOrder.slice(0, nameLength)
+      word = result.slice(0, nameLength)
 
       let div = document.getElementById("Names");
       let p = document.createElement("p");
